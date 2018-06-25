@@ -18,8 +18,8 @@ function currentLine(line) {
     let counter = 0
     let lineArray = []
     while (counter < lineArray.length) {
-      let number = `${counter + 1}. ${line[counter]}`
-      lineArray.push(number)
+      let currentNum = `${counter + 1}. ${line[counter]}`
+      lineArray.push(currentNum)
       counter++
       return lineArray
     }
