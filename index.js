@@ -4,14 +4,11 @@ function takeANumber(line, name) {
 }
 
 function nowServing(line) {
-  let response
   if (line === []) {
-    response = "There is nobody waiting to be served!"
+    return "There is nobody waiting to be served!"
   } else {
-    response = `Currently serving ${line[0]}.`
-    line.shift
+    return `Currently serving ${line.shift}.`
   }
-  return response
 }
 
 function currentLine() {
