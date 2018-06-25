@@ -8,12 +8,8 @@ function nowServing(line) {
   if (line === []) {
     response = "There is nobody waiting to be served!"
   } else {
-    let counter = 0
-    while (counter < line.length) {
-      response = `Currently serving ${line[counter]}.`
-      line.shift
-      counter++
-    }
+    response = `Currently serving ${line[0]}.`
+    line.shift
   }
   return response
 }
