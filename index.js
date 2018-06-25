@@ -6,7 +6,7 @@ function takeANumber(line, name) {
 function nowServing(line) {
   if (line === []) {
     return true
-  } 
+  }
 }
 
 function currentLine() {
