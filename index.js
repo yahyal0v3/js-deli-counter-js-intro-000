@@ -22,6 +22,6 @@ function currentLine(line) {
       lineArray.push(currentNum)
       counter++
     }
-    return lineArray
+    return lineArray.join()
   }
 }
