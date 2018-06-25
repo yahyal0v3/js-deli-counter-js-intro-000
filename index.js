@@ -14,6 +14,7 @@ function nowServing(line) {
       counter++
     }
   }
+  return response
 }
 
 function currentLine() {
