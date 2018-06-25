@@ -21,7 +21,7 @@ function currentLine(line) {
       let number = `${counter + 1}. ${line[counter]}`
       lineArray.push(number)
       counter++
-      return lineArray.join
+      return lineArray.join()
     }
   }
 }
