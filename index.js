@@ -1,5 +1,7 @@
 function takeANumber(line, name) {
-  return line
+  let counter = 1
+  return `Welcome, ${name}. You are number ${counter} in line.`
+  counter++
 }
 
 function nowServing() {
