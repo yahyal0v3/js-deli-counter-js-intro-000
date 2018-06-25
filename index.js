@@ -11,6 +11,17 @@ function nowServing(line) {
   }
 }
 
-function currentLine() {
-
+function currentLine(line) {
+  if (line.length === 0) {
+    return "The line is currently empty."
+  } else {
+    let counter = 0
+    let lineArray = []
+    while (counter < line.length) {
+      let number = `${counter + 1}. ${line[counter]}`
+      lineArray.push(number)
+      counter++
+      return lineArray.join
+    }
+  }
 }
