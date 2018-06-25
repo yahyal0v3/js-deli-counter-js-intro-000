@@ -1,7 +1,6 @@
 function takeANumber(line, name) {
-  let counter = 1
-  return `Welcome, ${name}. You are number ${counter} in line.`
-  counter++
+  line.push(name)
+  return `Welcome, ${name}. You are number ${line.indexOf(name) + 1} in line.`
 }
 
 function nowServing() {
