@@ -17,7 +17,7 @@ function currentLine(line) {
   } else {
     let counter = 0
     let lineArray = []
-    while (counter < line.length) {
+    while (counter < lineArray.length) {
       let number = `${counter + 1}. ${line[counter]}`
       lineArray.push(number)
       counter++
