@@ -11,7 +11,7 @@ function nowServing(line) {
     let counter = 0
     while (counter < line.length) {
       response = `Currently serving ${line[counter]}.`
-      line.shift 
+      line.shift
       counter++
     }
   }
